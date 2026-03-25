@@ -26,8 +26,21 @@
             Register
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Register</a></li>
+            <li><a class="dropdown-item" href="/Register">Register</a></li>
             <li><a class="dropdown-item" href="#">Login</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            customer
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/show_customer">Show customer</a></li>
+            <li><a class="dropdown-item" href="/show_Employees">show Employees</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>

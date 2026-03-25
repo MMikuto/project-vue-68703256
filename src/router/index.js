@@ -32,6 +32,21 @@ const routes = [
     name: 'gold',
     component: () => import(/* webpackChunkName: "about" */ '../views/gold.vue')
   },
+  {
+    path: '/show_customer',
+    name: 'show_customer',
+    component: () => import(/* webpackChunkName: "about" */ '../views/show_customer.vue')
+  },
+  {
+    path: '/show_employees',
+    name: 'show_employees',
+    component: () => import(/* webpackChunkName: "about" */ '../views/show_Employees.vue')
+  },
+    {
+    path: '/Register',
+    name: 'Register',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
+  },
 ] 
 
 
